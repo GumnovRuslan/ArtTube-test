@@ -34,7 +34,7 @@
 }
 .article__title {
 	font-weight: 500;
-	font-size: clamp(20px, 4vw, 28px);
+	font-size: clamp(20px, 3vw, 28px);
 	line-height: clamp(23.44px, 4vw, 32.81px);
 	margin-bottom: 15px;
 }

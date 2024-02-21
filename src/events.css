@@ -3,9 +3,9 @@
 	justify-content: center;
 	justify-items: center;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 440px));
-	gap: 40px;
+	gap: clamp(20px, 3vw, 40px);
 	grid-auto-flow: dense;
-	margin-bottom: 40px;
+	margin-bottom: clamp(30px, 3vw, 40px);
 }
 .events__card {
 	max-height: 540px;
