@@ -1,0 +1,45 @@
+button,
+.wrapper {
+	font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+	background: #f7f7f4;
+}
+
+.section__title {
+	font-weight: 400;
+	font-size: clamp(26px, 5vw, 42px);
+	line-height: 49.22px;
+	color: #100e0e;
+	margin-bottom: clamp(30px, 5vw, 60px);
+}
+
+.custom-btn {
+	font-family: Roboto, sans-serif;
+	display: block;
+	width: 242px;
+	height: 64px;
+	margin: 0 auto;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21.09px;
+	letter-spacing: 5%;
+	color: white;
+	background: #ff711f;
+	border: none;
+	padding: 0;
+}
+@media screen and (min-width: 700px) {
+	.custom-section {
+		padding: 80px clamp(20px, 6.5vw, 100px);
+	}
+}
+@media screen and (max-width: 700px) {
+	.custom-section {
+		padding: 50px 0;
+	}
+	.section__title {
+		text-align: center;
+	}
+}
