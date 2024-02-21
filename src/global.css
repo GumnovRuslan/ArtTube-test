@@ -7,7 +7,7 @@ button,
 	background: #f7f7f4;
 }
 
-.section__title {
+.section-title {
 	font-weight: 400;
 	font-size: clamp(26px, 5vw, 42px);
 	line-height: 49.22px;
@@ -29,6 +29,16 @@ button,
 	background: #ff711f;
 	border: none;
 	padding: 0;
+}
+.custom-scroll::-webkit-scrollbar {
+	scrollbar-width: 2px;
+	height: 2px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+	background: #100e0e2d;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+	background: black;
 }
 @media screen and (min-width: 700px) {
 	.custom-section {
