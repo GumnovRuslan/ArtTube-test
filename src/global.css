@@ -12,7 +12,6 @@ button,
 	font-size: clamp(26px, 5vw, 42px);
 	line-height: 49.22px;
 	color: #100e0e;
-	margin-bottom: clamp(30px, 5vw, 60px);
 }
 
 .custom-btn {
@@ -49,7 +48,7 @@ button,
 	.custom-section {
 		padding: 50px 0;
 	}
-	.section__title {
+	.section-title {
 		text-align: center;
 	}
 }

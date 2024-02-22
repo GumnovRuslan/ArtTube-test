@@ -1,3 +1,6 @@
+.events__title {
+	margin-bottom: clamp(30px, 5vw, 60px);
+}
 .events__cards {
 	display: grid;
 	justify-content: center;
@@ -50,6 +53,7 @@
 	border: 1px solid #00000026;
 	background: white;
 }
+
 @media screen and (min-width: 700px) {
 	.events__card {
 		max-width: 440px;
@@ -71,5 +75,11 @@
 	}
 	.card__content {
 		padding: 20px 20px 25px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.events__btn {
+		max-width: calc(100% - 40px);
+		width: 100%;
 	}
 }
