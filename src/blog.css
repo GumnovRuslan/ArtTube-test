@@ -62,7 +62,7 @@
 		align-items: flex-end;
 	}
 	.blog__articles {
-		gap: 41px;
+		gap: 40px;
 	}
 	.blog__article {
 		min-width: 440px;
